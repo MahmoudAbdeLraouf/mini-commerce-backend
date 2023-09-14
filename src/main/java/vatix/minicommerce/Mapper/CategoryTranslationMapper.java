@@ -5,7 +5,7 @@ import vatix.minicommerce.Payload.CategoryTranslationDto;
 
 public class CategoryTranslationMapper {
 	
-	  // Convert Category Translation JPA Entity into CategoryTranslationDto
+	// Convert Category Translation JPA Entity into CategoryTranslationDto
     public static CategoryTranslationDto mapToCategoryTranslationDto(CategoryTranslation categoryTranslation){        
     	 CategoryTranslationDto categoryTranslationDto = new CategoryTranslationDto(
     	        	categoryTranslation.lang,

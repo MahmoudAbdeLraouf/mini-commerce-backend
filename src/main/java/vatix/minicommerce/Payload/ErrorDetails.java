@@ -1,5 +1,4 @@
 package vatix.minicommerce.Payload;
-
 import java.util.Date;
 
 public class ErrorDetails {
